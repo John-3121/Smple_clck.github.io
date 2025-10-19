@@ -2,7 +2,7 @@
 setInterval(function clock(){
   let time = new Date()
   
-  let day = ['Mon','Tue','Wed','Thur','Fri','Sat','Sun']
+  let day = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
   //let getday = time.getDay()
    let today =  day[time.getDay()]
    
