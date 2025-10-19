@@ -36,3 +36,11 @@ body {
   justify-content: space-between;
   font-size: 16px;
 }
+.audio{
+  display: grid;
+  margin-top:170px;
+
+  justify-content: center;
+  align-content: center;
+      }
+
