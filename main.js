@@ -3,8 +3,8 @@ setInterval(function clock(){
   let time = new Date()
   
   let day = ['Mon','Tue','Wed','Thur','Fri','Sat','Sun']
-  let getday = time.getDay()
-   let todayday =  day[getday]
+  //let getday = time.getDay()
+   let today =  day[time.getDay()]
    
   let month = time.getMonth()
   let months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Sep','Oct','Nov','Dec']
@@ -21,7 +21,7 @@ setInterval(function clock(){
   let sec = time.getSeconds()
   let timestring = `${hour}:${minute}:${sec} ${pa}`
   
-  document.querySelector('.day').innerHTML = todayday
+  document.querySelector('.day').innerHTML = today
   
   document.querySelector('.month').innerHTML = months[month -1] +':' + monthNums[monthNum -1]
   
