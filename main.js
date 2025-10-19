@@ -4,7 +4,7 @@ setInterval(function clock(){
   
   let day = ['Mon','Tue','Wed','Thur','Fri','Sat','Sun']
   let getday = time.getDay()
-   let todayday =  day[getday-1]
+   let todayday =  day[getday]
    
   let month = time.getMonth()
   let months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Sep','Oct','Nov','Dec']
