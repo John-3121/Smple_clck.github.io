@@ -39,6 +39,7 @@ body {
 .audio{
   display: grid;
   margin-top:170px;
+  margin-right:800px;
 
   justify-content: center;
   align-content: center;
